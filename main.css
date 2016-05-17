@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(hay.jpeg);
+/*    background-image: url(snowy_mountains.jpeg);*/
+    background-size: cover;
+}
+
+body {
+    font-size: 1.2em;
+    width: 40%;
+    float: right;
+    font-family: "Karla", sans-serif;
+    margin: 20px 15px;
+    padding: 5px;
+}
+
+#careerPath {
+    background: rgb(255, 203, 170);
+    color: #3F51B5;
+    display: inline;
+    padding: 4px 30px;
+    border-radius: 15px;
+    font-size: 1.3em;
+}
+
+h1#name {
+    margin-bottom: 32px;
+}
+
+h1#name span {
+
+}
+
+p#quote {
+    margin-top: 25px;
+}
+
+.heading {
+    background: rgba(0, 0, 128, 0.95);
+    padding: 15px 30px;
+    color: rgb(255, 203, 170);
+    margin-right: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.menu {
+    text-align: center;
+    padding: 60px 0 60px 60px;
+    position: relative;
+    right: -20px;
+}
+
+/*.menu div a {
+    text-decoration: none;
+    padding: 35px 70px 35px 0;
+    font-size: 1.5em;
+    color: white;
+}
+
+div.item {
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    right: -50px;
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 4px;
+}*/
+
+.menu a {
+    text-decoration: none;
+    padding: 35px 70px 35px 0;
+    font-size: 1.5em;
+    color: white;
+}
+
+a.item {
+    width: 100%;
+    padding: 25px;
+    position: relative;
+    right: -290px;
+    display: inline-block;
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+a.item:hover {
+    right: -70px;
+    transition: .5s;
+    transition-timing-function: ease;
+}
+
+.item.buttons {
+    background: rgba(165, 26, 26, .70);
+}
+
+.item.buttons:hover {
+    background: rgba(165, 26, 26, 1);
+}
+
+a.item.calculator {
+    background: rgba(60, 119, 62, .70);
+}
+
+a.item.calculator:hover {
+    background: rgba(60, 119, 62, 1);
+}
+
+a.item.forms {
+    background: rgba(255, 88, 0, .70);
+}
+
+a.item.forms:hover {
+    background: rgba(255, 88, 0, 1);
+}
+
+a.item.products {
+    background: rgba(0, 0, 128, .70);
+}
+
+a.item.products:hover {
+    background: rgba(0, 0, 128, 1);
+}
+
+a.item.profileCard {
+    background: rgba(90, 22, 90, .70);
+}
+
+a.item.profileCard:hover {
+    background: rgba(90, 22, 90, 1);
+}
